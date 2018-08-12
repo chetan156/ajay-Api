@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AjayDbModelStoreContainer" CdmEntityContainer="AjayDbEntities">
+    <EntitySetMapping Name="C__MigrationHistory">
+      <EntityTypeMapping TypeName="AjayDbModel.C__MigrationHistory">
+        <MappingFragment StoreEntitySet="__MigrationHistory">
+          <ScalarProperty Name="MigrationId" ColumnName="MigrationId" />
+          <ScalarProperty Name="ContextKey" ColumnName="ContextKey" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="ProductVersion" ColumnName="ProductVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Alerts">
+      <EntityTypeMapping TypeName="AjayDbModel.Alert">
+        <MappingFragment StoreEntitySet="Alert">
+          <ScalarProperty Name="SmsId" ColumnName="SmsId" />
+          <ScalarProperty Name="SmsDate" ColumnName="SmsDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ApprovedReceipts">
+      <EntityTypeMapping TypeName="AjayDbModel.ApprovedReceipt">
+        <MappingFragment StoreEntitySet="ApprovedReceipt">
+          <ScalarProperty Name="ReceiptId" ColumnName="ReceiptId" />
+          <ScalarProperty Name="ReceiptDate" ColumnName="ReceiptDate" />
+          <ScalarProperty Name="ReceiptBy" ColumnName="ReceiptBy" />
+          <ScalarProperty Name="ReceiptAmount" ColumnName="ReceiptAmount" />
+          <ScalarProperty Name="LateFeee" ColumnName="LateFeee" />
+          <ScalarProperty Name="ReceiptNaration" ColumnName="ReceiptNaration" />
+          <ScalarProperty Name="ReceiptCreatedDate" ColumnName="ReceiptCreatedDate" />
+          <ScalarProperty Name="SaleId" ColumnName="SaleId" />
+          <ScalarProperty Name="ReceiptNo" ColumnName="ReceiptNo" />
+          <ScalarProperty Name="ReciptStatus" ColumnName="ReciptStatus" />
+          <ScalarProperty Name="DealerSaleId" ColumnName="DealerSaleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Areas">
+      <EntityTypeMapping TypeName="AjayDbModel.Area">
+        <MappingFragment StoreEntitySet="Area">
+          <ScalarProperty Name="AreaId" ColumnName="AreaId" />
+          <ScalarProperty Name="AreaName" ColumnName="AreaName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetRoles">
+      <EntityTypeMapping TypeName="AjayDbModel.AspNetRole">
+        <MappingFragment StoreEntitySet="AspNetRoles">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserClaims">
+      <EntityTypeMapping TypeName="AjayDbModel.AspNetUserClaim">
+        <MappingFragment StoreEntitySet="AspNetUserClaims">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="ClaimType" ColumnName="ClaimType" />
+          <ScalarProperty Name="ClaimValue" ColumnName="ClaimValue" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserLogins">
+      <EntityTypeMapping TypeName="AjayDbModel.AspNetUserLogin">
+        <MappingFragment StoreEntitySet="AspNetUserLogins">
+          <ScalarProperty Name="LoginProvider" ColumnName="LoginProvider" />
+          <ScalarProperty Name="ProviderKey" ColumnName="ProviderKey" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUserRoles">
+      <EntityTypeMapping TypeName="AjayDbModel.AspNetUserRole">
+        <MappingFragment StoreEntitySet="AspNetUserRoles">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AspNetUsers">
+      <EntityTypeMapping TypeName="AjayDbModel.AspNetUser">
+        <MappingFragment StoreEntitySet="AspNetUsers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="EmailConfirmed" ColumnName="EmailConfirmed" />
+          <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
+          <ScalarProperty Name="SecurityStamp" ColumnName="SecurityStamp" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="PhoneNumberConfirmed" ColumnName="PhoneNumberConfirmed" />
+          <ScalarProperty Name="TwoFactorEnabled" ColumnName="TwoFactorEnabled" />
+          <ScalarProperty Name="LockoutEndDateUtc" ColumnName="LockoutEndDateUtc" />
+          <ScalarProperty Name="LockoutEnabled" ColumnName="LockoutEnabled" />
+          <ScalarProperty Name="AccessFailedCount" ColumnName="AccessFailedCount" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Bookings">
+      <EntityTypeMapping TypeName="AjayDbModel.Booking">
+        <MappingFragment StoreEntitySet="Booking">
+          <ScalarProperty Name="BookingId" ColumnName="BookingId" />
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+          <ScalarProperty Name="CatagoryId" ColumnName="CatagoryId" />
+          <ScalarProperty Name="ModelId" ColumnName="ModelId" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="BookingDate" ColumnName="BookingDate" />
+          <ScalarProperty Name="BookingAmount" ColumnName="BookingAmount" />
+          <ScalarProperty Name="BookingNaration" ColumnName="BookingNaration" />
+          <ScalarProperty Name="SerialNo" ColumnName="SerialNo" />
+          <ScalarProperty Name="SaleDate" ColumnName="SaleDate" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="BookingBY" ColumnName="BookingBY" />
+          <ScalarProperty Name="ExecutiveId" ColumnName="ExecutiveId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Catagories">
+      <EntityTypeMapping TypeName="AjayDbModel.Catagory">
+        <MappingFragment StoreEntitySet="Catagory">
+          <ScalarProperty Name="CatagoryId" ColumnName="CatagoryId" />
+          <ScalarProperty Name="CatagoryName" ColumnName="CatagoryName" />
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Companies">
+      <EntityTypeMapping TypeName="AjayDbModel.Company">
+        <MappingFragment StoreEntitySet="Company">
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CustBookings">
+      <EntityTypeMapping TypeName="AjayDbModel.CustBooking">
+        <MappingFragment StoreEntitySet="CustBooking">
+          <ScalarProperty Name="BookingId" ColumnName="BookingId" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="MobileNo" ColumnName="MobileNo" />
+          <ScalarProperty Name="AltMobileNo" ColumnName="AltMobileNo" />
+          <ScalarProperty Name="Remark" ColumnName="Remark" />
+          <ScalarProperty Name="BookingDate" ColumnName="BookingDate" />
+          <ScalarProperty Name="ExecutiveId" ColumnName="ExecutiveId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="AjayDbModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="CustomerAddress" ColumnName="CustomerAddress" />
+          <ScalarProperty Name="CustomerMobile" ColumnName="CustomerMobile" />
+          <ScalarProperty Name="CustomerAltMobile" ColumnName="CustomerAltMobile" />
+          <ScalarProperty Name="CustomerOccupation" ColumnName="CustomerOccupation" />
+          <ScalarProperty Name="OfficeNo" ColumnName="OfficeNo" />
+          <ScalarProperty Name="CustomerDob" ColumnName="CustomerDob" />
+          <ScalarProperty Name="CustomerAnnDate" ColumnName="CustomerAnnDate" />
+          <ScalarProperty Name="Refrence" ColumnName="Refrence" />
+          <ScalarProperty Name="CustomerNo" ColumnName="CustomerNo" />
+          <ScalarProperty Name="ExecutiveId" ColumnName="ExecutiveId" />
+          <ScalarProperty Name="AreaId" ColumnName="AreaId" />
+          <ScalarProperty Name="GurantorName" ColumnName="GurantorName" />
+          <ScalarProperty Name="GurantorNo" ColumnName="GurantorNo" />
+          <ScalarProperty Name="GurantorContatNo" ColumnName="GurantorContatNo" />
+          <ScalarProperty Name="Pin" ColumnName="Pin" />
+          <ScalarProperty Name="FranchiseId" ColumnName="FranchiseId" />
+          <ScalarProperty Name="PhotoPath" ColumnName="PhotoPath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DealerSales">
+      <EntityTypeMapping TypeName="AjayDbModel.DealerSale">
+        <MappingFragment StoreEntitySet="DealerSale">
+          <ScalarProperty Name="SaleId" ColumnName="SaleId" />
+          <ScalarProperty Name="DealerName" ColumnName="DealerName" />
+          <ScalarProperty Name="DealerContactNo" ColumnName="DealerContactNo" />
+          <ScalarProperty Name="SaleDate" ColumnName="SaleDate" />
+          <ScalarProperty Name="TotalPaid" ColumnName="TotalPaid" />
+          <ScalarProperty Name="Remaining" ColumnName="Remaining" />
+          <ScalarProperty Name="Naration" ColumnName="Naration" />
+          <ScalarProperty Name="NextPaymentDate" ColumnName="NextPaymentDate" />
+          <ScalarProperty Name="SaleNo" ColumnName="SaleNo" />
+          <ScalarProperty Name="AccNo" ColumnName="AccNo" />
+          <ScalarProperty Name="SaleMode" ColumnName="SaleMode" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="SaleStatus" ColumnName="SaleStatus" />
+          <ScalarProperty Name="SendSms" ColumnName="SendSms" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DealerSaleDetails">
+      <EntityTypeMapping TypeName="AjayDbModel.DealerSaleDetail">
+        <MappingFragment StoreEntitySet="DealerSaleDetail">
+          <ScalarProperty Name="SaledetailId" ColumnName="SaledetailId" />
+          <ScalarProperty Name="SaleId" ColumnName="SaleId" />
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="ModelId" ColumnName="ModelId" />
+          <ScalarProperty Name="SerialNo" ColumnName="SerialNo" />
+          <ScalarProperty Name="ProductPrice" ColumnName="ProductPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ElectronicModels">
+      <EntityTypeMapping TypeName="AjayDbModel.ElectronicModel">
+        <MappingFragment StoreEntitySet="ElectronicModel">
+          <ScalarProperty Name="ModelId" ColumnName="ModelId" />
+          <ScalarProperty Name="ModelName" ColumnName="ModelName" />
+          <ScalarProperty Name="CatagoryId" ColumnName="CatagoryId" />
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EMIDetails">
+      <EntityTypeMapping TypeName="AjayDbModel.EMIDetail">
+        <MappingFragment StoreEntitySet="EMIDetails">
+          <ScalarProperty Name="EmiId" ColumnName="EmiId" />
+          <ScalarProperty Name="SaleId" ColumnName="SaleId" />
+          <ScalarProperty Name="EmiAmount" ColumnName="EmiAmount" />
+          <ScalarProperty Name="EmiDate" ColumnName="EmiDate" />
+          <ScalarProperty Name="ChequeNo" ColumnName="ChequeNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EMIDetailsDummies">
+      <EntityTypeMapping TypeName="AjayDbModel.EMIDetailsDummy">
+        <MappingFragment StoreEntitySet="EMIDetailsDummy">
+          <ScalarProperty Name="EmiId" ColumnName="EmiId" />
+          <ScalarProperty Name="SaleId" ColumnName="SaleId" />
+          <ScalarProperty Name="EmiAmount" ColumnName="EmiAmount" />
+          <ScalarProperty Name="EmiDate" ColumnName="EmiDate" />
+          <ScalarProperty Name="NextEmiDate" ColumnName="NextEmiDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Executives">
+      <EntityTypeMapping TypeName="AjayDbModel.Executive">
+        <MappingFragment StoreEntitySet="Executive">
+          <ScalarProperty Name="ExecutiveId" ColumnName="ExecutiveId" />
+          <ScalarProperty Name="ExecutiveName" ColumnName="ExecutiveName" />
+          <ScalarProperty Name="ExecutiveContactNo" ColumnName="ExecutiveContactNo" />
+          <ScalarProperty Name="ExecutiveAddress" ColumnName="ExecutiveAddress" />
+          <ScalarProperty Name="ExecutiveALtNo" ColumnName="ExecutiveALtNo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Feedbacks">
+      <EntityTypeMapping TypeName="AjayDbModel.Feedback">
+        <MappingFragment StoreEntitySet="Feedback">
+          <ScalarProperty Name="FeedbackId" ColumnName="FeedbackId" />
+          <ScalarProperty Name="CallDate" ColumnName="CallDate" />
+          <ScalarProperty Name="NextDueDate" ColumnName="NextDueDate" />
+          <ScalarProperty Name="Naration" ColumnName="Naration" />
+          <ScalarProperty Name="EmiID" ColumnName="EmiID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FranchiseInfoes">
+      <EntityTypeMapping TypeName="AjayDbModel.FranchiseInfo">
+        <MappingFragment StoreEntitySet="FranchiseInfo">
+          <ScalarProperty Name="FranchiseId" ColumnName="FranchiseId" />
+          <ScalarProperty Name="FranchiseName" ColumnName="FranchiseName" />
+          <ScalarProperty Name="FranchiseAddress" ColumnName="FranchiseAddress" />
+          <ScalarProperty Name="FranchiseCity" ColumnName="FranchiseCity" />
+          <ScalarProperty Name="FranchiseState" ColumnName="FranchiseState" />
+          <ScalarProperty Name="FranchiseTelephoneNo" ColumnName="FranchiseTelephoneNo" />
+          <ScalarProperty Name="FranchiseBusinessTeleNo" ColumnName="FranchiseBusinessTeleNo" />
+          <ScalarProperty Name="FranchiseContactPersonName" ColumnName="FranchiseContactPersonName" />
+          <ScalarProperty Name="FranchiseContactPersonPhoneNo" ColumnName="FranchiseContactPersonPhoneNo" />
+          <ScalarProperty Name="FranchiseContactPersonAltPhoneNo" ColumnName="FranchiseContactPersonAltPhoneNo" />
+          <ScalarProperty Name="FranchiseContactPersonEmail" ColumnName="FranchiseContactPersonEmail" />
+          <ScalarProperty Name="FranchiseContactPersonAddress" ColumnName="FranchiseContactPersonAddress" />
+          <ScalarProperty Name="FranchiseContactPersonCity" ColumnName="FranchiseContactPersonCity" />
+          <ScalarProperty Name="FranchiseVatTinNo" ColumnName="FranchiseVatTinNo" />
+          <ScalarProperty Name="FranchiseVatRate" ColumnName="FranchiseVatRate" />
+          <ScalarProperty Name="FranchiseServiceTaxNo" ColumnName="FranchiseServiceTaxNo" />
+          <ScalarProperty Name="FranchiseServicetaxRate" ColumnName="FranchiseServicetaxRate" />
+          <ScalarProperty Name="FranchiseCreatedate" ColumnName="FranchiseCreatedate" />
+          <ScalarProperty Name="FranchiseLastmodifyDate" ColumnName="FranchiseLastmodifyDate" />
+          <ScalarProperty Name="FranchiseStatus" ColumnName="FranchiseStatus" />
+          <ScalarProperty Name="FranchiseOwnerDob" ColumnName="FranchiseOwnerDob" />
+          <ScalarProperty Name="MembershipRequestMarriageAniversary" ColumnName="MembershipRequestMarriageAniversary" />
+          <ScalarProperty Name="FranchisePinCode" ColumnName="FranchisePinCode" />
+          <ScalarProperty Name="FranchiseCountry" ColumnName="FranchiseCountry" />
+          <ScalarProperty Name="FranchiseCode" ColumnName="FranchiseCode" />
+          <ScalarProperty Name="CodeGenerateDate" ColumnName="CodeGenerateDate" />
+          <ScalarProperty Name="Shop" ColumnName="Shop" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FranchiseProfiles">
+      <EntityTypeMapping TypeName="AjayDbModel.FranchiseProfile">
+        <MappingFragment StoreEntitySet="FranchiseProfile">
+          <ScalarProperty Name="FranchiseID" ColumnName="FranchiseID" />
+          <ScalarProperty Name="UserProfileID" ColumnName="UserProfileID" />
+          <ScalarProperty Name="FranchiseUserName" ColumnName="FranchiseUserName" />
+          <ScalarProperty Name="FranchisePassword" ColumnName="FranchisePassword" />
+          <ScalarProperty Name="FranchiseConfirmPassword" ColumnName="FranchiseConfirmPassword" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LateFees">
+      <EntityTypeMapping TypeName="AjayDbModel.LateFee">
+        <MappingFragment StoreEntitySet="LateFee">
+          <ScalarProperty Name="LateId" ColumnName="LateId" />
+          <ScalarProperty Name="LateFeeAmount" ColumnName="LateFeeAmount" />
+          <ScalarProperty Name="LateDate" ColumnName="LateDate" />
+          <ScalarProperty Name="EMIId" ColumnName="EMIId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NewCustomers">
+      <EntityTypeMapping TypeName="AjayDbModel.NewCustomer">
+        <MappingFragment StoreEntitySet="NewCustomer">
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="CustomerMobileNo" ColumnName="CustomerMobileNo" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Responce" ColumnName="Responce" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OwnStocks">
+      <EntityTypeMapping TypeName="AjayDbModel.OwnStock">
+        <MappingFragment StoreEntitySet="OwnStock">
+          <ScalarProperty Name="StockId" ColumnName="StockId" />
+          <ScalarProperty Name="ComapnyId" ColumnName="ComapnyId" />
+          <ScalarProperty Name="CatagoryId" ColumnName="CatagoryId" />
+          <ScalarProperty Name="ModelId" ColumnName="ModelId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="FranchiseId" ColumnName="FranchiseId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Purchases">
+      <EntityTypeMapping TypeName="AjayDbModel.Purchase">
+        <MappingFragment StoreEntitySet="Purchase">
+          <ScalarProperty Name="PurchaseId" ColumnName="PurchaseId" />
+          <ScalarProperty Name="PurchaseDate" ColumnName="PurchaseDate" />
+          <ScalarProperty Name="PurchaseBillNo" ColumnName="PurchaseBillNo" />
+          <ScalarProperty Name="PurchaseModelId" ColumnName="PurchaseModelId" />
+          <ScalarProperty Name="PurchaseQuantity" ColumnName="PurchaseQuantity" />
+          <ScalarProperty Name="PurchaseNaration" ColumnName="PurchaseNaration" />
+          <ScalarProperty Name="PurchaseCatagoryId" ColumnName="PurchaseCatagoryId" />
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseSerialNoes">
+      <EntityTypeMapping TypeName="AjayDbModel.PurchaseSerialNo">
+        <MappingFragment StoreEntitySet="PurchaseSerialNo">
+          <ScalarProperty Name="SerialId" ColumnName="SerialId" />
+          <ScalarProperty Name="PurchaseId" ColumnName="PurchaseId" />
+          <ScalarProperty Name="SerialNo" ColumnName="SerialNo" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+          <ScalarProperty Name="CatagoryId" ColumnName="CatagoryId" />
+          <ScalarProperty Name="ModelId" ColumnName="ModelId" />
+          <ScalarProperty Name="FrachiseId" ColumnName="FrachiseId" />
+          <ScalarProperty Name="SaleTo" ColumnName="SaleTo" />
+          <ScalarProperty Name="SaleMode" ColumnName="SaleMode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Receipts">
+      <EntityTypeMapping TypeName="AjayDbModel.Receipt">
+        <MappingFragment StoreEntitySet="Receipt">
+          <ScalarProperty Name="ReceiptId" ColumnName="ReceiptId" />
+          <ScalarProperty Name="ReceiptDate" ColumnName="ReceiptDate" />
+          <ScalarProperty Name="ReceiptBy" ColumnName="ReceiptBy" />
+          <ScalarProperty Name="ReceiptAmount" ColumnName="ReceiptAmount" />
+          <ScalarProperty Name="LateFeee" ColumnName="LateFeee" />
+          <ScalarProperty Name="ReceiptNaration" ColumnName="ReceiptNaration" />
+          <ScalarProperty Name="ReceiptCreatedDate" ColumnName="ReceiptCreatedDate" />
+          <ScalarProperty Name="SaleId" ColumnName="SaleId" />
+          <ScalarProperty Name="ReceiptNo" ColumnName="ReceiptNo" />
+          <ScalarProperty Name="ReciptStatus" ColumnName="ReciptStatus" />
+          <ScalarProperty Name="DealerSaleId" ColumnName="DealerSaleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sales">
+      <EntityTypeMapping TypeName="AjayDbModel.Sale">
+        <MappingFragment StoreEntitySet="Sale">
+          <ScalarProperty Name="SaleId" ColumnName="SaleId" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="ProductPrice" ColumnName="ProductPrice" />
+          <ScalarProperty Name="SaleMode" ColumnName="SaleMode" />
+          <ScalarProperty Name="AdvanceDownPayment" ColumnName="AdvanceDownPayment" />
+          <ScalarProperty Name="BalanceAmount" ColumnName="BalanceAmount" />
+          <ScalarProperty Name="NoOfEmi" ColumnName="NoOfEmi" />
+          <ScalarProperty Name="SaleDate" ColumnName="SaleDate" />
+          <ScalarProperty Name="SaleNaration" ColumnName="SaleNaration" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+          <ScalarProperty Name="SaleNo" ColumnName="SaleNo" />
+          <ScalarProperty Name="EMI" ColumnName="EMI" />
+          <ScalarProperty Name="AccountNo" ColumnName="AccountNo" />
+          <ScalarProperty Name="DocumentCharges" ColumnName="DocumentCharges" />
+          <ScalarProperty Name="ElectronicCatagoryId" ColumnName="ElectronicCatagoryId" />
+          <ScalarProperty Name="SerialNo" ColumnName="SerialNo" />
+          <ScalarProperty Name="FranchiseId" ColumnName="FranchiseId" />
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+          <ScalarProperty Name="SaleStatus" ColumnName="SaleStatus" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="BookingId" ColumnName="BookingId" />
+          <ScalarProperty Name="NextPaymentDate" ColumnName="NextPaymentDate" />
+          <ScalarProperty Name="DealerBalanceAmt" ColumnName="DealerBalanceAmt" />
+          <ScalarProperty Name="SaleOf" ColumnName="SaleOf" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="SendSms" ColumnName="SendSms" />
+          <ScalarProperty Name="SaleCompletedDate" ColumnName="SaleCompletedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Stocks">
+      <EntityTypeMapping TypeName="AjayDbModel.Stock">
+        <MappingFragment StoreEntitySet="Stock">
+          <ScalarProperty Name="StockId" ColumnName="StockId" />
+          <ScalarProperty Name="ComapnyId" ColumnName="ComapnyId" />
+          <ScalarProperty Name="CatagoryId" ColumnName="CatagoryId" />
+          <ScalarProperty Name="ModelId" ColumnName="ModelId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StockOrders">
+      <EntityTypeMapping TypeName="AjayDbModel.StockOrder">
+        <MappingFragment StoreEntitySet="StockOrder">
+          <ScalarProperty Name="StockOrderId" ColumnName="StockOrderId" />
+          <ScalarProperty Name="TransferDate" ColumnName="TransferDate" />
+          <ScalarProperty Name="ComapnyId" ColumnName="ComapnyId" />
+          <ScalarProperty Name="CatagoryId" ColumnName="CatagoryId" />
+          <ScalarProperty Name="ModelId" ColumnName="ModelId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Naration" ColumnName="Naration" />
+          <ScalarProperty Name="FranchiseId" ColumnName="FranchiseId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StockSerialNoes">
+      <EntityTypeMapping TypeName="AjayDbModel.StockSerialNo">
+        <MappingFragment StoreEntitySet="StockSerialNo">
+          <ScalarProperty Name="SerialId" ColumnName="SerialId" />
+          <ScalarProperty Name="StockTransferId" ColumnName="StockTransferId" />
+          <ScalarProperty Name="SerialNo" ColumnName="SerialNo" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="CompanyId" ColumnName="CompanyId" />
+          <ScalarProperty Name="CatagoryId" ColumnName="CatagoryId" />
+          <ScalarProperty Name="ModelId" ColumnName="ModelId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TellyFeedbacks">
+      <EntityTypeMapping TypeName="AjayDbModel.TellyFeedback">
+        <MappingFragment StoreEntitySet="TellyFeedback">
+          <ScalarProperty Name="FeedbackId" ColumnName="FeedbackId" />
+          <ScalarProperty Name="CallDate" ColumnName="CallDate" />
+          <ScalarProperty Name="Resopnce" ColumnName="Resopnce" />
+          <ScalarProperty Name="Details" ColumnName="Details" />
+          <ScalarProperty Name="NextCallDate" ColumnName="NextCallDate" />
+          <ScalarProperty Name="CustomerId" ColumnName="CustomerId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserInRoles">
+      <EntityTypeMapping TypeName="AjayDbModel.UserInRole">
+        <MappingFragment StoreEntitySet="UserInRole">
+          <ScalarProperty Name="UserInRoleId" ColumnName="UserInRoleId" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserMemberships">
+      <EntityTypeMapping TypeName="AjayDbModel.UserMembership">
+        <MappingFragment StoreEntitySet="UserMembership">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="ConfirmationToken" ColumnName="ConfirmationToken" />
+          <ScalarProperty Name="IsConfirmed" ColumnName="IsConfirmed" />
+          <ScalarProperty Name="IsLocked" ColumnName="IsLocked" />
+          <ScalarProperty Name="AccountLockDate" ColumnName="AccountLockDate" />
+          <ScalarProperty Name="LastPasswordFailureDate" ColumnName="LastPasswordFailureDate" />
+          <ScalarProperty Name="PasswordFailuresSinceLastSuccess" ColumnName="PasswordFailuresSinceLastSuccess" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="PasswordChangedDate" ColumnName="PasswordChangedDate" />
+          <ScalarProperty Name="PasswordVerificationToken" ColumnName="PasswordVerificationToken" />
+          <ScalarProperty Name="PasswordVerificationTokenExpirationDate" ColumnName="PasswordVerificationTokenExpirationDate" />
+          <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+          <ScalarProperty Name="PasswordReset" ColumnName="PasswordReset" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserProfiles">
+      <EntityTypeMapping TypeName="AjayDbModel.UserProfile">
+        <MappingFragment StoreEntitySet="UserProfile">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserEmail" ColumnName="UserEmail" />
+          <ScalarProperty Name="UserSecurityQuestion" ColumnName="UserSecurityQuestion" />
+          <ScalarProperty Name="UserSecurityAnswer" ColumnName="UserSecurityAnswer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRoles">
+      <EntityTypeMapping TypeName="AjayDbModel.UserRole">
+        <MappingFragment StoreEntitySet="UserRole">
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

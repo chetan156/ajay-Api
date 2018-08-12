@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9c4b5ec44fee4400ac88af93e6a58b80" Name="Diagram1">
+        <EntityTypeShape EntityType="AjayDbModel.C__MigrationHistory" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.Alert" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.ApprovedReceipt" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.Area" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.AspNetRole" Width="1.5" PointX="17.75" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.AspNetUserClaim" Width="1.5" PointX="20" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.AspNetUserLogin" Width="1.5" PointX="20" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.AspNetUserRole" Width="1.5" PointX="20" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.AspNetUser" Width="1.5" PointX="17.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.Booking" Width="1.5" PointX="20" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.Catagory" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.Company" Width="1.5" PointX="0.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.CustBooking" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.Customer" Width="1.5" PointX="17.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.DealerSale" Width="1.5" PointX="7.75" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.DealerSaleDetail" Width="1.5" PointX="10" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.ElectronicModel" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.EMIDetail" Width="1.5" PointX="5.25" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.EMIDetailsDummy" Width="1.5" PointX="5.25" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.Executive" Width="1.5" PointX="9.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.Feedback" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.FranchiseInfo" Width="1.5" PointX="3" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.FranchiseProfile" Width="1.5" PointX="15" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.LateFee" Width="1.5" PointX="7.5" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.NewCustomer" Width="1.5" PointX="17.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.OwnStock" Width="1.5" PointX="5.25" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.Purchase" Width="1.5" PointX="8.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.PurchaseSerialNo" Width="1.5" PointX="10.5" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.Receipt" Width="1.5" PointX="12.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.Sale" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.Stock" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.StockOrder" Width="1.5" PointX="10.25" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.StockSerialNo" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.TellyFeedback" Width="1.5" PointX="20" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.UserInRole" Width="1.5" PointX="15" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.UserMembership" Width="1.5" PointX="15" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.UserProfile" Width="1.5" PointX="12.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AjayDbModel.UserRole" Width="1.5" PointX="12.75" PointY="2.375" IsExpanded="true" />
+        <AssociationConnector Association="AjayDbModel.FK_AspNetUserRoles_AspNetRoles" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_Booking_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_OwnStock_Catagory" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_Purchase_Catagory" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_PurchaseSerialNo_Catagory" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_Stock_Catagory" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_StockOrder_Catagory" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_ElectronicModel_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_OwnStock_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_Purchase_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_PurchaseSerialNo_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_Sale_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_Stock_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_StockOrder_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_DealerSaleDetail_DealerSale" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_OwnStock_ElectronicModel" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_Purchase_ElectronicModel" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_PurchaseSerialNo_ElectronicModel" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_Stock_ElectronicModel" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_StockOrder_ElectronicModel" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_EMIDetails_Sale" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_LateFee_EMIDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_EMIDetailsDummy_Sale" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_FranchiseProfile_FranchiseInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_OwnStock_FranchiseInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_StockOrder_FranchiseInfo" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_FranchiseProfile_UserProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_TellyFeedback_NewCustomer" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_PurchaseSerialNo_Purchase" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_Sale_Sale" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_StockSerialNo_StockSerialNo" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_UserInRole_UserProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_UserInRole_UserRole" ManuallyRouted="false" />
+        <AssociationConnector Association="AjayDbModel.FK_UserMembership_UserProfile" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
